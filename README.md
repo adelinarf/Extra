@@ -1,5 +1,4 @@
-# Extra
-Reto Extra
+# Reto Extra
 El problema implementado con el lenguaje de programación Python es el siguiente:
 
 
