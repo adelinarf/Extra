@@ -1,4 +1,5 @@
 from math import factorial,log2,floor
+import sys
 def bell(n):
 	if n==0:
 		return 1
@@ -19,4 +20,4 @@ def fibonacci(n):
 	return b
 def evil(n):
 	print(fibonacci(floor(log2(bell(n+1)))+1))
-evil(int(input("N: ")))
+evil(int(sys.argv[1]))
