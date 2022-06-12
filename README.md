@@ -1,7 +1,7 @@
 # Extra
 Reto Extra
 El problema implementado con el lenguaje de programación Python es el siguiente:
-<img src="problema.png" alt="tests"/>
+<img src="problema.png" alt="problema"/>
 El reto se resolvió elaborando funciones para el cálculo de los números de Bell (función bell) y la sucesión de Fibonacci (función fibo). Ambas funciones pudieron ser implementadas con sus versiones recursivas, pero esto traería problemas incluso para los números más pequeños dada la naturaleza del problema. Por esto, se realizaron de manera iterativa y también se hizo uso de las funciones de Python: factorial,log2 y floor que se encuentran en la librería math.
 
 ## ¿Cómo correr el programa?
