@@ -9,7 +9,7 @@ def bell(n):
 			for k in range(1,y):
 				arreglo[y]+=(factorial(y-1)/(factorial(k)*factorial(y-1-k)))*arreglo[k]
 		return arreglo[len(arreglo)-1]
-def fibonacci(n):
+def fibo(n):
 	a,b=0,1
 	if n==0:
 	    b=0
@@ -19,5 +19,5 @@ def fibonacci(n):
 			a=b-a
 	return b
 def evil(n):
-	print(fibonacci(floor(log2(bell(n+1)))+1))
+	print(fibo(floor(log2(bell(n+1)))+1))
 evil(int(sys.argv[1]))
